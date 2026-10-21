@@ -1,0 +1,166 @@
+﻿id,model_name,model_id,model_digest,image_sha256,signature,truth,difficulty,aircraft,predicted,status,json_valid,raw_response,error,latency_s,eval_count,total_duration_s,timestamp_utc
+001,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,1898581f685dca524b89d92104d736a06c9b630ca358b18e94978dd8f2d71cbf,e7ffc80738d6f0cb02cccbc8fe674eaed27516c43850b5c170d041f6f9342ded,civilian,easy,Boeing 737-800 (United Airlines),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is painted with the United Airlines livery, indicating a commercial airline operator.""}",,13.636,27,13.602,2026-10-16T02:33:56.001944+00:00
+002,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,c175ad5011b93d2a742cc7f45d9a2279918f4b29bc8bf01d00af9746d614ceca,719196771ad01e80cbb15cc3339bde93358ab8e9d2d633f93cc0bd76481cebe1,civilian,easy,Airbus A320 (Airbus Industries),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is an Airbus A320, a commercial airliner.""}",,11.126,25,11.089,2026-10-16T02:34:07.208017+00:00
+003,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,c7778b34a89df5c799e1c2b6ed396aaca64936f4bb14efbd29c468681f0ff7e4,152cd202e63b855e9a2f8a7bc3fd120f38d5a3a472056c7bc1e30c1e8e1fa6d2,civilian,hard,Boeing 747-400BCF (Saudia Cargo),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is marked with 'AirBridgeCargo', indicating it is a cargo airline, which is a civilian operation.""}",,11.521,34,11.459,2026-10-16T02:34:18.824837+00:00
+004,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,68c83b67be776d635391e0310b87cd552a1f02f9615c30ed0047001fe1328c9f,6f442b26f0cda41bbe274cb89b439f14bdbcf260da15c017cb13d86499ead109,civilian,easy,Cessna 172,civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, single-engine propeller plane, typical of general aviation and private use.""}",,10.911,31,10.867,2026-10-16T02:34:29.911691+00:00
+005,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,d4a1b53a323c72efcac394c37522c00f6e6843dcfc0e39ef4b3b23cdbf968ab0,70a5763386d7fc4c01fe6ee23e080571263a211968ffba173957a2c807506dfa,civilian,hard,Gulfstream G650 (business jet),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a Gulfstream G650, a private jet designed for business and luxury travel. It has no visible military markings or features.""}",,12.258,41,12.179,2026-10-16T02:34:42.270029+00:00
+006,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,3750235e7804e4f29c48a7861f2a50a180707294dcfc018ba9f48efb3b98223f,571a3fe8a365d2bed089455494aeebe8a6cb293c29f2ed9f280524a547c7a0d6,civilian,hard,Pilatus PC-12 (Fly 7 Executive Aviation),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft appears to be a general aviation aircraft with a distinctive livery, suggesting it is used for private or business travel rather than military operations.""}",,12.571,39,12.481,2026-10-16T02:34:54.967340+00:00
+007,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,cff537371e061cbc42107f01c7792de4d17a200b940b3377d93a1fd30226c557,37391b4bb6a9e0566ae43cd665bdcaba8072136ec21a907141066b9cd481d684,civilian,hard,Beechcraft King Air (private),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, general aviation aircraft with a registration number (N77CE) suggesting private or corporate ownership, typical of civilian operations.""}",,11.594,41,11.495,2026-10-16T02:35:06.730804+00:00
+008,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,803c4726821700ea0525c0b3fd688705dc32ce6dbd997e327adae858d3e3aa26,7e8df9f58ee3e820df6c70c2d7ec3a49f6874f240883b64d2aedbb20e5845a2b,civilian,hard,Air Tractor AT-802 (agricultural),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a cropduster, indicated by the markings and its design, suggesting a civilian operator for agricultural spraying.""}",,11.199,35,11.125,2026-10-16T02:35:18.117291+00:00
+009,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,3462bc8969adf427f22bc601836ccd65a0d7f01ef903193f2acb24deff8e9cb1,20a790709b2b0d2b69e7d62255c28896969fe300c7f20923be2a261964815a23,civilian,hard,Canadair CL-415 (Italian firefighting),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a cropduster, indicated by its design and the large spray being released. Crop dusters are typically operated by civilian companies for agricultural purposes.""}",,13.354,43,13.258,2026-10-16T02:35:31.637528+00:00
+010,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,60ea873b66eabf2a32db0534a365a6a8f22224dd7944e9fbcc5e91815c1f99d5,9e73f00f37e46b2f00dacf41f577bfe5d588eeba52abb47bab69957e71c54d86,civilian,hard,Douglas DC-3 (DesertAir),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is marked with 'Desert Air', indicating a commercial airline operator.""}",,11.677,26,11.454,2026-10-16T02:35:43.490568+00:00
+011,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,02cda7d41e9d2895d8729b0c07fc60597378d72813a318d83be0f2a14dd6e10b,5f31d31c208b7a79f02d6df64586736a71c27e58518cfe63bba6d2130b9472a6,civilian,easy,Embraer E190,civilian,ok,False,"{""label"":""CIVILIAN"",""reason"":""The aircraft is painted with the ""
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    ",,17.687,100,17.447,2026-10-16T02:36:02.069636+00:00
+012,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,d4cea7d07ba8596a911dbd9070630ac8fb530bba317d1ae55bf8a4738c13ae30,6de2215df5ef26c2ce95b47de798554a42b5afdf93e7b41752d0a695173a2161,civilian,easy,Airbus A330neo (Delta Air Lines),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is operated by Delta Airlines, a commercial airline.""}",,11.055,23,11.001,2026-10-16T02:36:13.328593+00:00
+013,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,3feb6dd8712f667c0f281faf170d3d5ebdb34a25f99e7222611f3c0b51bbb0ed,2bc5580dbb319b0ccce993d3c927e3e45c2294cd25f6eb47fb72629576e4c77f,civilian,hard,NASA SOFIA Boeing 747SP,civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is operated by NASA, a civilian research agency, and is used for atmospheric research.""}",,12.413,30,12.289,2026-10-16T02:36:25.910745+00:00
+014,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,905f9bb5d7f86aff55ff6781fab56625b2132fad9903b5f50e19500544905f7d,237f86693b61045ac82794cdcc55cf234bf8a5098af6da754b9a5918f9166ef0,civilian,hard,ATR 72 (Aerocaribbean),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is operated by Aerocaribbean, a commercial airline.""}",,11.662,24,11.476,2026-10-16T02:36:37.859761+00:00
+015,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,68dbc401c6a7240e19daf95d4aff9380e84c125c5fdb7cd59081171ea6857186,7e36e5fd999f3b3ba183262853f704da73ccf93de1f796178eb3541d3456a7a9,civilian,hard,Antonov An-2 (German civil registration),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a biplane, a type commonly used in general aviation and recreational flying, and is parked on a grassy field, suggesting a display or event rather than a military operation.""}",,15.265,48,15.03,2026-10-16T02:36:53.642443+00:00
+016,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,4b3181456cf7cf9f8fc4995a06f5baa3915e1857f431329d2f687bb9bfd3ee9d,ac754dec39a2fa6ce3784c50d50d4fb888f5eba1a6b8906e0b570aa85e5b6192,military,easy,F-16C Fighting Falcon (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a fighter jet with the markings of the United States Air Force (USAF) and is carrying weapons.""}",,11.423,34,11.337,2026-10-16T02:37:05.401725+00:00
+017,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,5269bc9debe643380da056d5a91fb256fa9af105ee5b1b4c0e318239cf766e20,2bbfac5989707899c262f101fece7289e4b5dd95b4a9ce68b7a48486d768a1d5,military,easy,B-2A Spirit (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a B-2 Spirit stealth bomber, a military reconnaissance and strike aircraft operated by the United States Air Force.""}",,11.739,35,11.607,2026-10-16T02:37:17.376703+00:00
+018,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,5855cb2c5bbef1e4b95333ab4bc7948bd35511609d0dd98789a856083f8f52fd,ab0a7ffe912490e44b7e49f4504745ddfdea491c9fbd0eb95c6c8b85a1552571,military,easy,F-35 Lightning II,military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a Lockheed Martin F-35 Lightning II, a fifth-generation fighter aircraft developed for the United States Air Force and Navy.""}",,12.088,39,11.991,2026-10-16T02:37:29.615221+00:00
+019,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,347efe57c165bcc7bffed467dfe431e6357da084ba964fe005aac9522665068c,42d9ec4e3bdbaf242f6fed165abc90675252e9a278814e09cfadabeea9bdc6dc,military,hard,Boeing E-3C Sentry AWACS (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is marked with 'U.S. AIR FORCE' and is an E-6 Mercury, a strategic early warning and control aircraft operated by the USAF.""}",,12.391,43,12.33,2026-10-16T02:37:42.182418+00:00
+020,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,8948dfbe4800163f45d9c8f4fa1e0c29c5f3d1ccfe89acea71e3e03eaa8002e4,5dcbdf9e966acb5ffd5bda381771f286106afa8e885eae4bc81f4a5c44976fe7,military,hard,Airbus A330 MRTT (French Air Force),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is painted with the markings of the Armee de l'Air (French Air Force)""}",,11.412,29,11.37,2026-10-16T02:37:53.690664+00:00
+021,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,af777e51f01e06d7e795970c852c17731fec180671900147be15275b4327f2c1,7f52885fb655acdd06fda9ea4dea2bd3476cc30b68e600d1287a34a9005f6d77,military,hard,Beechcraft C-12 Huron (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is marked with 'UNITED STATES AIR FORCE' and 'UAC', indicating it belongs to the military.""}",,12.52,33,12.42,2026-10-16T02:38:06.303624+00:00
+022,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,d55644a260d89df944891e618f5bfe2fc68d705cc63ec59d5a6ada0c7eadb629,28d4e706271d279b3e157c43b2e944b693acf851155aab67a034399a29d6b7ef,military,hard,Boeing C-40A Clipper (US Navy),military,ok,False,"{""label"":""MILITARY"",""reason"":""The aircraft is marked with ""
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ",,17.438,100,17.254,2026-10-16T02:38:24.057516+00:00
+023,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,e419263c6d6da6493c95c3026fd54697a702b35b3fbf512abe33d9ccd46ed43a,a75ef25a6716c5a4ed2f2180709ff23ed409da4b5962d0917a3737adaf3563f4,military,hard,Boeing P-8 Poseidon (US Navy),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is painted with the 'NAVY' markings and the tail features a bald eagle, indicating it belongs to the United States Navy.""}",,13.902,38,13.687,2026-10-16T02:38:38.215700+00:00
+024,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,3f9c2f5a44e87366326568097579c20cf5d746e264f75210e0da797674174bf1,6b2f60a9d859c6acf02988e9253c682000b593e90e259ff74f693641aff4196f,military,hard,Lockheed C-130 Hercules (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a U.S. Air Force C-130 Hercules, a military transport aircraft.""}",,13.177,32,12.965,2026-10-16T02:38:51.829428+00:00
+025,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,9f81e06811e01fa5abfacfc7a1a9453f05273f038235a4a6902b4d105699e471,f4069ed65cca3c4e3c672f32cc328338684167c14e72cdd67c2e4d7149277a4d,military,hard,Boeing C-17 Globemaster III (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a C-17 Globemaster III, a military transport aircraft operated by the United States Air Force.""}",,12.668,34,12.516,2026-10-16T02:39:04.696891+00:00
+026,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,fb0afe0c7bbbe265bfbff231bc86a70a3c6b5864d1f5a1783452e7ca81ffbca8,efa931a30f779b91bcaeb7c6f5c817ef5af8cf71c4a5b63868b601b779c88f1b,military,hard,Beechcraft T-6 Texan II (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft has 'U.S.AF' markings, indicating it is operated by the United States Air Force.""}",,13.593,33,12.973,2026-10-16T02:39:18.793399+00:00
+027,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,407068de72520523e5786d1136d86a77d0ad1196ad0b6e31ab458193c4ddab1b,a9300e509a82d40c5e74e9f2919dfadfe4232d23f84a8932b179e18f13ceefba,military,hard,Lockheed P-3C Orion (German Navy),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is marked with 'MARINE' and the German flag, indicating it belongs to the German Marine (Navy).""}",,12.793,33,12.675,2026-10-16T02:39:32.218682+00:00
+028,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,6f7ca3bf9f2a2b6d2ffb5f4d63442cec4b3890352a4fc57459baff480378d522,8aa108a7a31af28209d090de2ae6ecf08d98bfbb4521a5d97068a1a361f4a0fd,military,hard,Lockheed U-2 Dragon Lady (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft appears to be a World War II-era transport plane, likely a C-47 or similar, commonly used by military forces.""}",,12.229,39,12.137,2026-10-16T02:39:44.605493+00:00
+029,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,86343fa8b6077d67db0a3553469421a7c82a468abfdcb17d29cb5a6d3e2dfb2c,804931cfe2bf2ed7276963dd186f18a4728639209b9e95e1d856a655235be1ac,military,hard,Boeing KC-135 Stratotanker (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is marked with 'U.S. AIR FORCE' and appears to be a strategic airlifter, a common military transport aircraft.""}",,12.682,39,12.638,2026-10-16T02:39:57.437343+00:00
+030,gemma3:4b,gemma3:4b,68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7,5208f3b28193c2bb5734f1c91232b6a76d413c4e28227c5ea7c2c914fe651e91,8b9cf1d58183e26e68d313a74ceb91991f36174d8459a77d14c18ba2deabf318,military,easy,Eurofighter Typhoon,military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is an Eurofighter Typhoon, a military fighter aircraft.""}",,11.632,23,11.558,2026-10-16T02:40:09.178951+00:00
+001,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,1898581f685dca524b89d92104d736a06c9b630ca358b18e94978dd8f2d71cbf,f0e6e913a68c9146e66d9534fb6f598f82ff8fd057ca3cd0e7627585c914ae00,civilian,easy,Boeing 737-800 (United Airlines),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a commercial airliner with the 'United' logo, indicating it is used for passenger transport.""}",,18.585,34,18.508,2026-10-16T02:26:28.342407+00:00
+002,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,c175ad5011b93d2a742cc7f45d9a2279918f4b29bc8bf01d00af9746d614ceca,58925884c83de7cfb0a4580732befe3290711d869e52b8e39156dd34c5e4c823,civilian,easy,Airbus A320 (Airbus Industries),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is an Airbus A320, which is a commercial airliner used by airlines for passenger transport.""}",,12.921,35,12.842,2026-10-16T02:26:41.411331+00:00
+003,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,c7778b34a89df5c799e1c2b6ed396aaca64936f4bb14efbd29c468681f0ff7e4,d655b778f697edd6c0c12ea399766bb12c5211c6ddc0e2b28361c8c3c8063430,civilian,hard,Boeing 747-400BCF (Saudia Cargo),civilian,ok,True,"{
+  ""label"": ""CIVILIAN"",
+  ""reason"": ""The aircraft is a cargo plane with the 'AirBridgeCargo' logo, indicating it is used for commercial cargo transportation.""
+}",,11.317,42,11.209,2026-10-16T02:26:52.862975+00:00
+004,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,68c83b67be776d635391e0310b87cd552a1f02f9615c30ed0047001fe1328c9f,6e9131035832b223e3cf4529a806cc1abf26b14beb2f1edea1624b80ab1ec721,civilian,easy,Cessna 172,civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, single-engine plane with a tail number, suggesting it is used for general aviation purposes, which is typically civilian.""}",,12.119,40,12.064,2026-10-16T02:27:05.112237+00:00
+005,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,d4a1b53a323c72efcac394c37522c00f6e6843dcfc0e39ef4b3b23cdbf968ab0,bf38882e116dfb3d35c1436836a57274f83f7d066b44de791029bd2b5ecb471a,civilian,hard,Gulfstream G650 (business jet),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a private jet, typically used for private travel and not for military purposes.""}",,10.745,30,10.708,2026-10-16T02:27:15.971412+00:00
+006,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,3750235e7804e4f29c48a7861f2a50a180707294dcfc018ba9f48efb3b98223f,7fd37febf75562ccbe5b79c84637c73e54315b6a0daacacaa1b9813d83d54fa4,civilian,hard,Pilatus PC-12 (Fly 7 Executive Aviation),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft has a sleek design and appears to be a private jet, which is typically used for civilian purposes such as private travel or business.""}",,10.838,40,10.811,2026-10-16T02:27:26.863702+00:00
+007,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,cff537371e061cbc42107f01c7792de4d17a200b940b3377d93a1fd30226c557,d609cbc40bab648fff0a208a780721ef36200be50df1f24ea90f08ccc395ae90,civilian,hard,Beechcraft King Air (private),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, single-engine propeller plane, which is typically used for general aviation purposes rather than military or military transport.""}",,11.271,39,11.251,2026-10-16T02:27:38.197046+00:00
+008,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,803c4726821700ea0525c0b3fd688705dc32ce6dbd997e327adae858d3e3aa26,bc71cd0a46636d4d14157dbe3efb487c93cbe7f96c3bbc02283e03370fe4b29f,civilian,hard,Air Tractor AT-802 (agricultural),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, single-engine plane typically used for general aviation purposes, such as training, private flights, or light cargo transport, which are common civilian uses. The presence of a propeller and the lack of visible weapons or military insignia further supports this classification.""}",,12.074,67,12.048,2026-10-16T02:27:50.333294+00:00
+009,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,3462bc8969adf427f22bc601836ccd65a0d7f01ef903193f2acb24deff8e9cb1,4aad9431d56a68679753d56dd00944f4523a50e8472fecd6a22eda18663afe9a,civilian,hard,Canadair CL-415 (Italian firefighting),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a Canadair CL-415, which is used for firefighting and is typically operated by civilian agencies such as the French Gendarmerie or the Spanish Guardia Civil.""}",,11.857,53,11.832,2026-10-16T02:28:02.248731+00:00
+010,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,60ea873b66eabf2a32db0534a365a6a8f22224dd7944e9fbcc5e91815c1f99d5,5a381daa874806ebfe75e8678bc505833dcc4a75e190fbfb7d99b68514497839,civilian,hard,Douglas DC-3 (DesertAir),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a passenger plane with the 'Desert Air' logo, indicating it is used for commercial passenger transport.""}",,11.423,36,11.399,2026-10-16T02:28:13.724855+00:00
+011,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,02cda7d41e9d2895d8729b0c07fc60597378d72813a318d83be0f2a14dd6e10b,8554dfb59c62bc41cc37310b9e6760b8c910c497e485305b3cde116a530473f5,civilian,easy,Embraer E190,civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a commercial airliner with a Brazilian flag and a crowd of people, indicating it is used for passenger transport.""}",,11.489,37,11.464,2026-10-16T02:28:25.274259+00:00
+012,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,d4cea7d07ba8596a911dbd9070630ac8fb530bba317d1ae55bf8a4738c13ae30,591b4795bb28d38c1f53f8a2abde24479ac1b09d93706485434db8981e327eee,civilian,easy,Airbus A330neo (Delta Air Lines),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a Delta Airlines aircraft, which is a commercial airline.""}",,11.516,26,11.495,2026-10-16T02:28:36.848223+00:00
+013,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,3feb6dd8712f667c0f281faf170d3d5ebdb34a25f99e7222611f3c0b51bbb0ed,e935e2b79e0207cacfa151d45ad50a2b3aadc5cd3c6a1656ed4497203a8abd64,civilian,hard,NASA SOFIA Boeing 747SP,civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a NASA-operated aircraft, typically used for civil research purposes.""}",,12.821,28,12.779,2026-10-16T02:28:49.737620+00:00
+014,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,905f9bb5d7f86aff55ff6781fab56625b2132fad9903b5f50e19500544905f7d,86dfe9326ed50091861f4271e7f962b45010bbb4508feb881d6920df7c6cf82c,civilian,hard,ATR 72 (Aerocaribbean),civilian,ok,True,"{
+  ""label"": ""CIVILIAN"",
+  ""reason"": ""The aircraft is branded with 'Aerocaribbean', which is an airline. The design and markings are consistent with commercial airline livery.""
+}",,14.346,47,14.302,2026-10-16T02:29:04.183328+00:00
+015,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,68dbc401c6a7240e19daf95d4aff9380e84c125c5fdb7cd59081171ea6857186,ce878dc11ee7b201bfca9eec9a1b161e379e35bbfc51be4515e76f9e2d72b98b,civilian,hard,Antonov An-2 (German civil registration),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft is a small, single-engine plane typically used for general aviation purposes, such as private flying, crop dusting, or sightseeing tours, which are civilian activities.""}",,15.641,47,15.6,2026-10-16T02:29:19.933762+00:00
+016,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,4b3181456cf7cf9f8fc4995a06f5baa3915e1857f431329d2f687bb9bfd3ee9d,ef273648799522962762862b0f5f024bfbe906c5101a8107fd843c8b103a1ccc,military,easy,F-16C Fighting Falcon (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a fighter jet with visible weapons and markings, indicating it is used for military purposes.""}",,15.254,32,15.226,2026-10-16T02:29:35.309363+00:00
+017,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,5269bc9debe643380da056d5a91fb256fa9af105ee5b1b4c0e318239cf766e20,823a3d8b484c3f48755693b146886c83941fe67bbe5cade8c0e7586ca73e1b5e,military,easy,B-2A Spirit (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a stealth bomber, typically used for military purposes.""}",,15.778,25,15.737,2026-10-16T02:29:51.156993+00:00
+018,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,5855cb2c5bbef1e4b95333ab4bc7948bd35511609d0dd98789a856083f8f52fd,3dcf4642ae4b3d40f29480ab33152c2d1dc5b68038f1e025ba23e4b17b9b9f2c,military,easy,F-35 Lightning II,military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a fighter jet, which is typically used for military purposes such as combat, reconnaissance, and air superiority.""}",,15.122,36,15.088,2026-10-16T02:30:06.359378+00:00
+019,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,347efe57c165bcc7bffed467dfe431e6357da084ba964fe005aac9522665068c,4c26798ae1dc2b6e35dac0b043882fcda32a01788dc8cd369bab8ac6d83f70b2,military,hard,Boeing E-3C Sentry AWACS (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a U.S. Air Force aircraft, which is typically used for military purposes such as reconnaissance and surveillance.""}",,15.043,36,15.014,2026-10-16T02:30:21.497135+00:00
+020,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,8948dfbe4800163f45d9c8f4fa1e0c29c5f3d1ccfe89acea71e3e03eaa8002e4,dbdcdbad515a1dad2e0385018fb078be17d6f0203439f2b58a40506290ef88eb,military,hard,Airbus A330 MRTT (French Air Force),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is labeled 'ARMEE DE L' AIR,' which is the French Air Force, indicating it is military.""}",,15.923,36,15.892,2026-10-16T02:30:37.504066+00:00
+021,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,af777e51f01e06d7e795970c852c17731fec180671900147be15275b4327f2c1,15a41f82f6b9ea24ac1d9c38f02d203064708397cbd3b1f486a0af65f56fb491,military,hard,Beechcraft C-12 Huron (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a United States Air Force Beechcraft King Air, which is used for military purposes such as reconnaissance, patrol, and training.""}",,18.872,41,18.83,2026-10-16T02:30:56.481862+00:00
+022,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,d55644a260d89df944891e618f5bfe2fc68d705cc63ec59d5a6ada0c7eadb629,3446e91d7bd472f2413c1eb846fc4611f8cbacadc5a873bf27c8a18321b0eee1,military,hard,Boeing C-40A Clipper (US Navy),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is operated by the United States Navy, which is a military branch.""}",,15.113,28,15.067,2026-10-16T02:31:11.716209+00:00
+023,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,e419263c6d6da6493c95c3026fd54697a702b35b3fbf512abe33d9ccd46ed43a,4658668c2bcf762915421780c2070c4f75ae26e88f3cf9fc3b3d90f345a99f67,military,hard,Boeing P-8 Poseidon (US Navy),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a military aircraft with 'NAVY' markings, indicating it is operated by the U.S. Navy, which is a military force.""}",,16.24,42,16.191,2026-10-16T02:31:28.033598+00:00
+024,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,3f9c2f5a44e87366326568097579c20cf5d746e264f75210e0da797674174bf1,e081b9a6f3403fecfd3032c01c0829d8fb6d700a38a571a56e9232159c26eb8a,military,hard,Lockheed C-130 Hercules (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a military transport plane, identifiable by its large size, four propellers, and the 'U.S. Air Force' insignia on the fuselage.""}",,17.481,46,17.447,2026-10-16T02:31:45.627959+00:00
+025,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,9f81e06811e01fa5abfacfc7a1a9453f05273f038235a4a6902b4d105699e471,a72c6a5ce4b3f87f4b13a33f976bf27fbda9a9f9e7d78ab10e7d2d7259d61f40,military,hard,Boeing C-17 Globemaster III (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a large military transport plane, identifiable by its size and the visible ""}",,16.401,29,16.363,2026-10-16T02:32:02.127242+00:00
+026,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,fb0afe0c7bbbe265bfbff231bc86a70a3c6b5864d1f5a1783452e7ca81ffbca8,fe84c44903eb4557f8e1a414bb091519dd6adb34f8f12ceec302b4a19a35f6a4,military,hard,Beechcraft T-6 Texan II (USAF),civilian,ok,True,"{""label"":""CIVILIAN"",""reason"":""The aircraft has a 'USAF' logo, which suggests it is used for military purposes, but the lack of visible weapons or military insignia makes it more likely to be a civilian aircraft.""}",,27.316,51,27.232,2026-10-16T02:32:29.502148+00:00
+027,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,407068de72520523e5786d1136d86a77d0ad1196ad0b6e31ab458193c4ddab1b,7e2c26e9f952e3367eeeea586bfab56b9f34b8e7611fdf0254a370e497048911,military,hard,Lockheed P-3C Orion (German Navy),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a military transport plane, as indicated by the 'MARINE' marking and the presence of military personnel and equipment around it.""}",,17.714,40,17.587,2026-10-16T02:32:47.375438+00:00
+028,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,6f7ca3bf9f2a2b6d2ffb5f4d63442cec4b3890352a4fc57459baff480378d522,c5529aa00ca691ed4c2a6db0fbf76fb3c2b00489ab67b280b7c61a4eda041f14,military,hard,Lockheed U-2 Dragon Lady (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a single-engine propeller plane, which is commonly used for military reconnaissance and training purposes.""}",,20.306,33,20.202,2026-10-16T02:33:07.886053+00:00
+029,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,86343fa8b6077d67db0a3553469421a7c82a468abfdcb17d29cb5a6d3e2dfb2c,03be4c90a89224da679486e4c92e37c52ecdf0a61d6cc6de0064cc5976d6c017,military,hard,Boeing KC-135 Stratotanker (USAF),military,ok,True,"{""label"":""MILITARY"",""reason"":""U.S. Air Force markings and context""}",,16.504,20,16.463,2026-10-16T02:33:24.561458+00:00
+030,qwen2.5vl:3b,qwen2.5vl:3b,fb90415cde1ef08aa669ae74b082d49b158729b6db1ab183c941417d507e71a1,5208f3b28193c2bb5734f1c91232b6a76d413c4e28227c5ea7c2c914fe651e91,fbc7d844386ee1856a3a496871194517a5e18261eecdbc867b9e2247b8d9751b,military,easy,Eurofighter Typhoon,military,ok,True,"{""label"":""MILITARY"",""reason"":""The aircraft is a fighter jet, which is typically used for military purposes such as combat, reconnaissance, and air superiority.""}",,17.555,36,17.514,2026-10-16T02:33:42.193442+00:00
