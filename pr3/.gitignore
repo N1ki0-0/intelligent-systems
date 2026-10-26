@@ -9,10 +9,6 @@ __pycache__/
 .DS_Store
 .env
 
-# Скачанные фото не публикуются; ссылки на источники есть в CSV
-data/images/*.jpg
-data/images/*.jpeg
-data/images/*.png
 
 # Промежуточные/незавершённые файлы
 *.partial
